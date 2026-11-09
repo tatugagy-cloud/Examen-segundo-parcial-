@@ -14,11 +14,4 @@ __pycache__/
 # Resultados temporales
 output/
 
-cat > .gitignore << 'EOF'
-.venv/
-.env
-__pycache__/
-*.pyc
-*.csv
 .DS_Store
-EOF
