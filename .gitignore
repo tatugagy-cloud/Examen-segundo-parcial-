@@ -1,0 +1,24 @@
+# Archivos CSV
+*.csv
+
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Variables privadas
+.env
+
+# Resultados temporales
+output/
+
+cat > .gitignore << 'EOF'
+.venv/
+.env
+__pycache__/
+*.pyc
+*.csv
+.DS_Store
+EOF
